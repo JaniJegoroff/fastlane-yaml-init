@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+# Add application identifier and your apple id here
+
+app_identifier 'com.app.identifier'
+apple_id 'apple@id.com'

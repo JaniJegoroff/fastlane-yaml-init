@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+
+# See all available metadata options here: https://github.com/KrauseFx/deliver/blob/master/Deliverfile.md
+
+metadata = YAML.load_file('metadata.yml')
+
+METADATA = {
+  default_language: metadata['DEFAULT_LANGUAGE'], # Must be first item in the hash
+  apple_id: metadata['APPLE_ID'],
+  version: metadata['VERSION'],
+  title: metadata['TITLE'],
+  description: metadata['DESCRIPTION'],
+  keywords: metadata['KEYWORDS'],
+  screenshots_path: metadata['SCREENSHOTS_PATH'],
+  app_icon: metadata['APP_ICON'],
+  marketing_url: metadata['MARKETING_URL'],
+  support_url: metadata['SUPPORT_URL'],
+  privacy_url: metadata['PRIVACY_URL'],
+  copyright: metadata['COPYRIGHT'],
+  primary_category: metadata['PRIMARY_CATEGORY'],
+  secondary_category: metadata['SECONDARY_CATEGORY'],
+  changelog: metadata['CHANGELOG'],
+  price_tier: metadata['PRICE_TIER'],
+  automatic_release: metadata['AUTOMATIC_RELEASE'],
+  app_review_information: metadata['APP_REVIEW_INFORMATION'],
+  ratings_config_path: metadata['RATINGS_CONFIG_PATH'],
+  ipa: ENV['IPA_OUTPUT_PATH'],
+  beta_ipa: ENV['IPA_OUTPUT_PATH']
+}
+
+METADATA.each do |key, value|
+  next if value.nil?
+  public_send(key, value)
+end

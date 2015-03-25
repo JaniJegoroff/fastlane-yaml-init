@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.push File.expand_path('../../lib', __FILE__)
+
+require 'fastlane-yaml-init'
+
+class FastlaneYamlInit
+  include FYAML::Message
+
+  def run
+    begin
+      FYAML::Folders.setup
+      FYAML::Files.setup
+      show_okay_msg('✓ fastlane skeleton created successfully')
+    rescue Exception => ex
+      show_error_msg('✗ ' + ex.message)
+      raise ex
+    end
+  end
+end
+
+FastlaneYamlInit.new.run

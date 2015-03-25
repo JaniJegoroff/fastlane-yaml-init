@@ -1,0 +1,46 @@
+# metadata.yml
+##YAML metadata template for App Store app submissions
+---
+
+DEFAULT_LANGUAGE:
+
+APPLE_ID:
+
+TITLE:
+
+VERSION:
+
+DESCRIPTION:
+
+KEYWORDS:
+
+SCREENSHOTS_PATH:
+
+APP_ICON:
+
+MARKETING_URL:
+
+SUPPORT_URL:
+
+PRIVACY_URL:
+
+COPYRIGHT:
+
+PRIMARY_CATEGORY:
+
+SECONDARY_CATEGORY:
+
+APP_REVIEW_INFORMATION:
+  :first_name:
+  :last_name:
+  :phone_number:
+  :email_address:
+  :demo_user:
+  :demo_password:
+  :notes:
+
+RATINGS_CONFIG_PATH:
+
+CHANGELOG:
+
+AUTOMATIC_RELEASE:

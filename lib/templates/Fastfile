@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+##############################
+#
+# fastlane lanes
+#
+##############################
+
+lane :appstore do
+  # TODO: Add your code here
+end
+
+##############################
+#
+# fastlane hooks
+#
+##############################
+
+before_all do
+  # TODO: Add your code here
+end
+
+after_all do |lane|
+  # TODO: Add your code here
+end
+
+error do |lane, exception|
+  # TODO: Add your code here
+end
