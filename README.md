@@ -1,4 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/fastlane-yaml-init.svg)](http://badge.fury.io/rb/fastlane-yaml-init)
+[![Build Status](https://travis-ci.org/JaniJegoroff/fastlane-yaml-init.svg)](https://travis-ci.org/JaniJegoroff/fastlane-yaml-init)
 [![Coverage Status](https://coveralls.io/repos/JaniJegoroff/fastlane-yaml-init/badge.svg)](https://coveralls.io/r/JaniJegoroff/fastlane-yaml-init)
 [![Code Climate](https://codeclimate.com/github/JaniJegoroff/fastlane-yaml-init/badges/gpa.svg)](https://codeclimate.com/github/JaniJegoroff/fastlane-yaml-init)
 [![Dependency Status](https://gemnasium.com/JaniJegoroff/fastlane-yaml-init.svg)](https://gemnasium.com/JaniJegoroff/fastlane-yaml-init)
