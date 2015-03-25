@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/fastlane-yaml-init.svg)](http://badge.fury.io/rb/fastlane-yaml-init)
+
 fastlane-yaml-init
 ==========
 
