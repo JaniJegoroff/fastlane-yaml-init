@@ -2,11 +2,11 @@ module FYAML
   # Creates all folders
   class Folders
     class << self
-      FASTLANE_FOLDER = 'fastlane'
-      DELIVER_FOLDER = "#{FASTLANE_FOLDER}/deliver"
-      APP_ICON_FOLDER = "#{DELIVER_FOLDER}/app-icon"
-      RATING_FOLDER = "#{DELIVER_FOLDER}/rating"
-      SCREENSHOTS_FOLDER = "#{DELIVER_FOLDER}/screenshots/en-US"
+      FASTLANE_FOLDER = 'fastlane'.freeze
+      DELIVER_FOLDER = "#{FASTLANE_FOLDER}/deliver".freeze
+      APP_ICON_FOLDER = "#{DELIVER_FOLDER}/app-icon".freeze
+      RATING_FOLDER = "#{DELIVER_FOLDER}/rating".freeze
+      SCREENSHOTS_FOLDER = "#{DELIVER_FOLDER}/screenshots/en-US".freeze
 
       def setup
         create_folders

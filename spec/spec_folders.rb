@@ -6,7 +6,7 @@ FOLDER_LIST = %w(
   fastlane/deliver/app-icon
   fastlane/deliver/rating
   fastlane/deliver/screenshots/en-US
-)
+).freeze
 
 # Test class for Folders
 class SpecFolders < Minitest::Spec

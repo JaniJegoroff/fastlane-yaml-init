@@ -19,9 +19,9 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency 'colorize', '~> 0.7'
 
-  gem.add_development_dependency 'rake', '~> 10.4'
+  gem.add_development_dependency 'rake', '~> 10.5'
   gem.add_development_dependency 'minitest', '~> 5.8'
   gem.add_development_dependency 'minitest-reporters', '~> 1.1'
-  gem.add_development_dependency 'rubocop', '~> 0.35'
+  gem.add_development_dependency 'rubocop', '~> 0.36'
   gem.add_development_dependency 'coveralls', '~> 0.8'
 end

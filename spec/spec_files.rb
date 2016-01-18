@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-FILE_LIST = %w(Appfile Deliverfile Fastfile metadata.yml)
+FILE_LIST = %w(Appfile Deliverfile Fastfile metadata.yml).freeze
 
 # Test class for Files
 class SpecFiles < Minitest::Spec
