@@ -14,7 +14,7 @@ module FYAML
 
       def copy_files
         root = Folders.root
-        fail("#{root} folder does not exist") unless File.exist?(root)
+        raise("#{root} folder does not exist") unless File.exist?(root)
 
         files.each do |file|
           next if File.exist?(File.join(root, file))

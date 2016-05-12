@@ -23,7 +23,7 @@ module FYAML
       end
 
       def create_folders
-        fail("#{root} folder already exist") if File.exist?(root)
+        raise("#{root} folder already exist") if File.exist?(root)
         FileUtils.mkdir_p(folders)
       end
     end
