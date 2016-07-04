@@ -10,9 +10,9 @@ end
 
 desc 'Execute RuboCop static code analysis'
 RuboCop::RakeTask.new(:rubocop) do |t|
-  t.patterns = %w(lib/fastlane-yaml-init/**/*.rb spec/**/*.rb)
+  t.patterns = %w(Rakefile lib/fastlane-yaml-init/**/*.rb spec/**/*.rb)
   t.options = %w(-D)
   t.fail_on_error = true
 end
 
-task :default => :test
+task default: :test
