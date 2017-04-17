@@ -1,12 +1,12 @@
 require_relative 'spec_helper'
 
-FOLDER_LIST = %w(
+FOLDER_LIST = %w[
   fastlane
   fastlane/deliver
   fastlane/deliver/app-icon
   fastlane/deliver/rating
   fastlane/deliver/screenshots/en-US
-).freeze
+].freeze
 
 # Test class for Folders
 class SpecFolders < Minitest::Spec

@@ -9,7 +9,7 @@ module FYAML
       private
 
       def files
-        %w(Appfile Deliverfile Fastfile metadata.yml)
+        %w[Appfile Deliverfile Fastfile metadata.yml]
       end
 
       def copy_files
