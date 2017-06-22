@@ -1,8 +1,8 @@
 language: ruby
 rvm:
-  - 2.3.1
+  - 2.4.1
+  - 2.3.4
   - 2.2.5
-  - 2.1.9
 notifications:
   email:
     - jani.jegoroff@gmail.com
@@ -10,4 +10,3 @@ install:
   - bundle install --retry=3
 script:
   - bundle exec rake
-  - bundle exec rake rubocop
